@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Digital Converter</title>
+     <link rel="stylesheet" href="converter.css">
+     <!-- GOOGLE FONTS 
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+     <!-- FONTS AWESOME 
+     <script src="https://kit.fontawesome.com/4e0ca6a507.js" crossorigin="anonymous"></script>
+     <!-- BOX ICONS -
+     <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+     -->
+     <style>
+        button{
+            margin-left: 1rem;
+        }
+
+     </style>
+    </head>
+    <body>
+        <h1>Distance/Length Converter</h1>
+        <div class="buttons">
+        <button id="miles">Miles - Kilometre</button>
+        <button id="kilometres">Kilometre - Miles</button>
+        <button id="yards">Yards - Inches</button>
+        <button id="inches"> Inches - Yards</button>
+        </div>
+        <p id="instruction"></p>
+        <form id="form">
+            <input type="text" id="number">
+            <input type="submit" value="Convert" id="convert">
+
+        </form>
+        <p id="output"></p>
+
+        <script src="converter.js"></script>
+    </body>
+    </html>
